@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité Sentinelle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Règles de confidentialité</h1>
+<p class="sous">Sentinelle — dernière mise à jour : 9 novembre 2026</p>
+
+<h2>Données consultées</h2>
+<p>Avec l'autorisation explicite de l'utilisateur, Sentinelle lit les messages de sa boîte Gmail (objet, expéditeur, date, contenu et noms des pièces jointes) via l'API Gmail, avec le droit <code>gmail.readonly</code>. Sentinelle ne peut ni envoyer, ni supprimer, ni modifier de message avec ce droit.</p>
+
+<h2>Utilisation</h2>
+<p>Ces données servent uniquement à classer les messages par catégorie et urgence et à produire de courts résumés pour l'utilisateur lui-même. Elles ne servent à aucune publicité, aucun profilage et aucun entraînement de modèle d'intelligence artificielle.</p>
+
+<h2>Traitement et stockage</h2>
+<ul>
+<li>Le traitement a lieu exclusivement sur l'ordinateur de l'utilisateur, avec un modèle d'intelligence artificielle local.</li>
+<li>Le contenu brut des messages n'est pas conservé. Seuls des résumés nettoyés, des métadonnées et un journal technique sont stockés localement, dans des fichiers accessibles uniquement par le logiciel.</li>
+<li>Les messages contenant des données sensibles (codes de connexion, coordonnées bancaires, données de santé) ne sont pas résumés : seule une mention « contenu confidentiel » est conservée.</li>
+</ul>
+
+<h2>Partage</h2>
+<p>Aucune donnée issue de Gmail n'est vendue, louée ni transmise à des tiers. L'utilisation des données reçues des API Google respecte le <a href="https://developers.google.com/terms/api-services-user-data-policy">Règlement sur les données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée.</p>
+
+<h2>Révocation et suppression</h2>
+<p>L'utilisateur peut retirer l'accès à tout moment depuis son compte Google (<a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>). Les données locales sont supprimées en effaçant la base de Sentinelle sur sa machine.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question, utilisez l'adresse de contact affichée sur l'écran d'autorisation Google de l'application.</p>
+
+<footer><a href="index.html">Retour à l'accueil</a></footer>
+</main>
+</body>
+</html>
